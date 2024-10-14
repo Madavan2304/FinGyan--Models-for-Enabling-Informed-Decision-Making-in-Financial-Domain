@@ -19,9 +19,9 @@ The FinGyan project leverages advanced natural language processing (NLP) and rei
 * Visualization: Implement the use of spacy and displacy for visualizing the named entities detected in the financial text to ensure proper model performance and annotation accuracy.
 
 **2. FinSUM (Financial Summarization):**
-* Data Preparation: Use large financial text datasets for summarization tasks. Tokenize and structure these using PegasusTokenizer for model compatibility.
-* Fine-Tuning Pegasus Model: Customize the PegasusForConditionalGeneration model for financial summarization tasks, incorporating dropout for regularization and freezing encoder layers when needed to focus learning on specific parts of the model.
-* Inference & Summarization: Implement a method for summarizing multi-line financial documents input by users, using the fine-tuned model for generating concise and relevant summaries.
+* **Data Preparation:** Use large financial text datasets for summarization tasks. Tokenize and structure these using PegasusTokenizer for model compatibility.
+* **Fine-Tuning Pegasus Model:** Customize the PegasusForConditionalGeneration model for financial summarization tasks, incorporating dropout for regularization and freezing encoder layers when needed to focus learning on specific parts of the model.
+* **Inference & Summarization:** Implement a method for summarizing multi-line financial documents input by users, using the fine-tuned model for generating concise and relevant summaries.
 
 **3. FinQA (Financial Question Answering):**
 * Dataset Reformatting: Convert the dataset format to align with instruction-following large language models (LLMs), including defining human-assistant roles within the data entries.
