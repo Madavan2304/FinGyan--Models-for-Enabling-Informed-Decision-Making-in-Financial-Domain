@@ -43,3 +43,6 @@ The FinGyan project leverages advanced natural language processing (NLP) and rei
 * **Spacy & Displacy:** For visualizing named entities in financial text.
 
 By following this structured approach and utilizing state-of-the-art tools and techniques, the FinGyan project aims to deliver comprehensive and actionable financial models that provide critical insights and support strategic decision-making in the financial sector.
+
+
+![Overall Methodology](https://github.com/user-attachments/assets/31bcbcb0-3077-4c8a-873d-73b6838ec918)
